@@ -1,0 +1,220 @@
+@media screen and (max-width: 834px) {
+  .wrapper {
+    max-width: 754px;
+  }
+  .header-content nav {
+    display: none;
+  }
+  .header-btn {
+    font-size: 0;
+  }
+  .header-btn::after {
+    content: "Daftar";
+    font-size: 16px;
+  }
+  .menu {
+    display: block;
+  }
+  .intro {
+    height: auto;
+    display: block;
+  }
+  .intro-contant {
+    width: 100%;
+    padding: 40px;
+    padding-bottom: 0;
+  }
+  .intro-modul {
+    margin: 0 auto;
+  }
+  .elementa-container {
+    display: block;
+  }
+  .elementa-title {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .elementa-practice {
+    order: 4;
+  }
+
+  .elementa-learning {
+    order: 3;
+  }
+  .elementa-learning h4 {
+    text-align: start;
+  }
+  .elementa-guidance {
+    order: 5;
+    border: none;
+  }
+  .elementa-list-container {
+    margin: 0 auto;
+    width: 578px;
+    flex-direction: column;
+  }
+  .card-container {
+    margin-top: 80px;
+    flex-direction: column;
+  }
+  .card {
+    margin: 0 auto;
+    width: 373px;
+  }
+  .experience {
+    height: auto;
+    display: block;
+    flex-direction: column;
+  }
+  .experience-section {
+    padding: 60px 0;
+  }
+  .experience-container {
+    width: 100%;
+    text-align: start;
+  }
+
+  .experience-container p {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .experience-container-mess {
+    margin-top: 40px;
+  }
+  .exp__mess_left {
+    padding: 0;
+  }
+  .exp__mess_right {
+    margin: 0;
+  }
+  .about {
+    flex-direction: column;
+    gap: 80px;
+  }
+  .about_form,
+  .about_list {
+    width: 100%;
+  }
+  footer {
+    height: auto;
+  }
+  .footer_top {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer_logo {
+    margin-bottom: 40px;
+  }
+  .footer_sub_block {
+    height: max-content;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .wrapper {
+    max-width: 396px;
+  }
+  .header-content,
+  .logo-container {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .header-actions {
+    display: none;
+  }
+  .intro-contant {
+    padding: 15px;
+  }
+  .intro-title {
+    font-size: 42px;
+  }
+  .intro-modul {
+    width: 364px;
+    height: 469px;
+  }
+  .intro-modul-sub {
+    font-size: 11px;
+  }
+  .intro-modul-title {
+    font-size: 14px;
+  }
+  .intro-modul-icon {
+    padding: 12px;
+  }
+  .intro-modul-icon img {
+    width: 17.5px;
+    height: 17.5px;
+  }
+  .intro-modul-container {
+    padding: 55px 0;
+  }
+  .intro-modul-man {
+    width: 197px;
+    height: 197px;
+  }
+  .intro-modul-man img {
+    width: 250px;
+    height: 235px;
+  }
+  .intro-modul-woman {
+    width: 196px;
+    height: 196px;
+  }
+  .intro-modul-woman img {
+    width: 195px;
+    height: 267px;
+  }
+  .elementa-title {
+    font-size: 28px;
+    margin-bottom: 24px;
+  }
+  .elementa-container {
+    margin-bottom: 40px;
+  }
+  .elementa-block {
+    width: 100%;
+  }
+  .elementa-block p {
+    width: 100%;
+  }
+  .elementa-list-image {
+    width: 396px;
+    height: 397px;
+  }
+  .intro-modul-const {
+    border-radius: 32px;
+  }
+  .elementa-list {
+    width: 396px;
+  }
+  .materials h4,
+  .elementa-list h4 {
+    font-size: 28px;
+    width: 396px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  .materials p,
+  .elementa-list p,
+  .sub_contant {
+    font-size: 16px;
+    text-align: center;
+    width: 396px;
+  }
+  .experience-container-mess {
+    display: block;
+  }
+  .exp__mess_left {
+    margin-bottom: 40px;
+  }
+  .accordion-header {
+    text-align: start;
+  }
+  .footer_sub {
+    flex-direction: column;
+  }
+  section {
+    padding: 40px 0;
+  }
+}
